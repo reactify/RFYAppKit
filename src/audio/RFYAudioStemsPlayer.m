@@ -101,9 +101,13 @@ static void * RFYStemsPlayerContext = &RFYStemsPlayerContext;
 }
 
 - (void)audioFilePlayer:(RFYAudioFilePlayer *)player willQueueAudio:(AudioBufferList *)audio {
+  // TODO
 }
 
 - (void)audioFilePlayerDidFinishPlayback:(RFYAudioFilePlayer *)player {
+  if ( player == self.players.firstObject ) {
+    [self.delegate audioFilePlayerDidFinishPlayback:self];
+  }
 }
 
 - (void)addPlaybackObserver {
