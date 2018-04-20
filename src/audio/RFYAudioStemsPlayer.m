@@ -82,7 +82,7 @@ static void * RFYStemsPlayerContext = &RFYStemsPlayerContext;
 }
 
 - (int)process:(AudioBufferList *)buffer length:(UInt32)frames {
-  if ( !_players || _players.count == 0 ) {
+  if ( !_players || _players.count == 0 || !_isPlaying ) {
     return 0;
   }
   
