@@ -27,10 +27,6 @@ AudioBufferList *InitAudioBufferList(AudioStreamBasicDescription audioFormat, in
 
 void FreeAudioBufferList(AudioBufferList *bufferList);
 
-static RFY_INLINE void ClearAudioBufferList(AudioBufferList *bufferList, const int frames) {
-  for ( int i = 0; i < bufferList->mNumberBuffers; i++ ) {
-    vDSP_vclr((float *)bufferList->mBuffers[i].mData, 1, frames);
-  }
-}
+void ClearAudioBufferList(AudioBufferList *bufferList, const int frames);
 
 #endif /* RFYAudioUtils_h */

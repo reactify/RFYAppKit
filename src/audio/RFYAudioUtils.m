@@ -6,7 +6,8 @@
 //  Copyright © 2018 Reactify. All rights reserved.
 //
 
-#include "RFYAudioUtils.h"
+#import <Accelerate/Accelerate.h>
+#import "RFYAudioUtils.h"
 
 AudioStreamBasicDescription nonInterleavedFloatStereo() {
   AudioStreamBasicDescription audioDescription;
@@ -27,7 +28,7 @@ AudioBufferList *InitAudioBufferList(AudioStreamBasicDescription audioFormat, in
   int channelsPerBuffer = audioFormat.mFormatFlags & kAudioFormatFlagIsNonInterleaved ? 1 : audioFormat.mChannelsPerFrame;
   int bytesPerBuffer = audioFormat.mBytesPerFrame * frameCount;
   
-  AudioBufferList *audio = (AudioBufferList *)malloc(sizeof(AudioBufferList) + (numberOfBuffers-1)*sizeof(AudioBuffer));
+  let audio = (AudioBufferList *)malloc(sizeof(AudioBufferList) + (numberOfBuffers-1)*sizeof(AudioBuffer));
   if ( !audio ) return NULL;
   
   audio->mNumberBuffers = numberOfBuffers;
@@ -53,4 +54,10 @@ void FreeAudioBufferList(AudioBufferList *bufferList) {
     if ( bufferList->mBuffers[i].mData ) free(bufferList->mBuffers[i].mData);
   }
   free(bufferList);
+}
+
+void ClearAudioBufferList(AudioBufferList *bufferList, const int frames) {
+  for ( int i = 0; i < bufferList->mNumberBuffers; i++ ) {
+    vDSP_vclr((float *)bufferList->mBuffers[i].mData, 1, frames);
+  }
 }
