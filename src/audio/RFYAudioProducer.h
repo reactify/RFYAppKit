@@ -1,6 +1,6 @@
 //
 //  RFYAudioProducer.h
-//  musiclarity
+//  RFYAppKit
 //
 //  Created by Ragnar Hrafnkelsson on 14/04/2018.
 //  Copyright © 2018 Reactify. All rights reserved.
