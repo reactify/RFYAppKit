@@ -14,8 +14,8 @@
 @protocol RFYAudioFilePlayerDelegate <NSObject>
 // Notify delegate of audio read, for optional processing
 // Not called from a realtime thread
-- (void)audioFilePlayer:(RFYAudioFilePlayer *)player willQueueAudio:(AudioBufferList *)audio;
-- (void)audioFilePlayerDidFinishPlayback:(RFYAudioFilePlayer *)player;
+- (void)audioFilePlayer:(id<RFYAudioPlayable>)player willQueueAudio:(AudioBufferList *)audio;
+- (void)audioFilePlayerDidFinishPlayback:(id<RFYAudioPlayable>)player;
 @end
 
 @interface RFYAudioFilePlayer : NSObject <RFYAudioPlayable> {
