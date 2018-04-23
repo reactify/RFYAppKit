@@ -9,6 +9,10 @@
 #ifndef RFYAudioUtils_h
 #define RFYAudioUtils_h
 
+#if defined __cplusplus
+extern "C" {
+#endif
+
 #import <AVFoundation/AVFoundation.h>
 #import "RFYUtils.h"
 
@@ -32,3 +36,7 @@ void ClearAudioBufferList(AudioBufferList *bufferList, const int frames);
 void AudioBufferListMultiply(AudioBufferList *bufferList, const int frames, float value);
 
 #endif /* RFYAudioUtils_h */
+  
+#if defined __cplusplus
+};
+#endif
