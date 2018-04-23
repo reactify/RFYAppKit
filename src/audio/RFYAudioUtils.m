@@ -61,3 +61,10 @@ void ClearAudioBufferList(AudioBufferList *bufferList, const int frames) {
     vDSP_vclr((float *)bufferList->mBuffers[i].mData, 1, frames);
   }
 }
+
+void AudioBufferListMultiply(AudioBufferList *bufferList, const int frames, float value) {
+  for ( int i = 0; i < bufferList->mNumberBuffers; i++ ) {
+    float *buffer = (float *)bufferList->mBuffers[i].mData;
+    vDSP_vsmul(buffer, 1, &value, buffer, 1, frames);
+  }
+}

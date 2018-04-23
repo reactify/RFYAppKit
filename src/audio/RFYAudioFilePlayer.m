@@ -42,6 +42,8 @@ static const UInt32 kPlaybackBufferLengthInFrames = 8192;
     return nil;
   }
   
+  _volume = 1.f;
+  
   _audioFormat = nonInterleavedFloatStereo();
   
   // Init the playback buffer
@@ -155,9 +157,13 @@ static const UInt32 kPlaybackBufferLengthInFrames = 8192;
   if ( toRead > 0 ) {
     // Read from playback buffer
     TPCircularBufferDequeueBufferListFrames( &_buffer, &toRead, buffer, NULL, &_audioFormat );
+    
+    if ( _volume < 1.f ) {
+      AudioBufferListMultiply(buffer, toRead, _volume);
+    }
   }
   else if ( toRead == 0 && [self __elapsedFrames] >= _totalFrames ) {
-    [self stop]; // TODO: Async notification on main thread
+    [self stop];
     dispatch_after(DISPATCH_TIME_NOW, dispatch_get_main_queue(), ^{
       [_delegate audioFilePlayerDidFinishPlayback:self];
     });

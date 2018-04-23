@@ -11,7 +11,12 @@
 
 // This object currently assumes that all stems are of same length
 
+@class RFYAudioFilePlayer;
+
 @interface RFYAudioStemsPlayer : NSObject <RFYAudioPlayable>
+
+// The underlying file players
+@property (nonatomic, readonly) NSArray<RFYAudioFilePlayer *>* players;
 
 @property (nonatomic, weak) id<RFYAudioFilePlayerDelegate> delegate;
 

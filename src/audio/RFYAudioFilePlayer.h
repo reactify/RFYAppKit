@@ -20,8 +20,12 @@
 
 @interface RFYAudioFilePlayer : NSObject <RFYAudioPlayable> {
 @protected
+  float _volume;
   BOOL _isPlaying;
 }
+
+// Volume between 0.0 and 1.0
+@property (nonatomic) float volume;
 
 // Playback status. KVO observable
 @property (nonatomic, readonly) BOOL isPlaying;

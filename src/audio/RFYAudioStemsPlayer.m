@@ -18,9 +18,8 @@ static void * RFYStemsPlayerContext = &RFYStemsPlayerContext;
 @interface RFYAudioStemsPlayer() {
   AudioBufferList* _scratchBuffer;
 }
-// The underlying file players
 @property (nonatomic, readwrite) BOOL isPlaying;
-@property (nonatomic) NSArray<RFYAudioFilePlayer *>* players;
+@property (nonatomic, readwrite) NSArray<RFYAudioFilePlayer *>* players;
 @end
 
 @implementation RFYAudioStemsPlayer
