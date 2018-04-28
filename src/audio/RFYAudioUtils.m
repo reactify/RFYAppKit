@@ -23,20 +23,20 @@ AudioStreamBasicDescription nonInterleavedFloatStereo() {
   return audioDescription;
 }
 
-AudioBufferList *InitAudioBufferList(AudioStreamBasicDescription audioFormat, int frameCount) {
-  int numberOfBuffers = audioFormat.mFormatFlags & kAudioFormatFlagIsNonInterleaved ? audioFormat.mChannelsPerFrame : 1;
-  int channelsPerBuffer = audioFormat.mFormatFlags & kAudioFormatFlagIsNonInterleaved ? 1 : audioFormat.mChannelsPerFrame;
-  int bytesPerBuffer = audioFormat.mBytesPerFrame * frameCount;
+AudioBufferList *InitAudioBufferList(AudioStreamBasicDescription audioFormat, UInt32 frameCount) {
+  UInt32 numberOfBuffers = audioFormat.mFormatFlags & kAudioFormatFlagIsNonInterleaved ? audioFormat.mChannelsPerFrame : 1;
+  UInt32 channelsPerBuffer = audioFormat.mFormatFlags & kAudioFormatFlagIsNonInterleaved ? 1 : audioFormat.mChannelsPerFrame;
+  UInt32 bytesPerBuffer = audioFormat.mBytesPerFrame * frameCount;
   
   let audio = (AudioBufferList *)malloc(sizeof(AudioBufferList) + (numberOfBuffers-1)*sizeof(AudioBuffer));
   if ( !audio ) return NULL;
   
   audio->mNumberBuffers = numberOfBuffers;
-  for ( int i=0; i<numberOfBuffers; i++ ) {
+  for ( UInt32 i = 0; i<numberOfBuffers; i++ ) {
     if ( bytesPerBuffer > 0 ) {
       audio->mBuffers[i].mData = calloc(bytesPerBuffer, 1);
       if ( !audio->mBuffers[i].mData ) {
-        for ( int j=0; j<i; j++ ) free(audio->mBuffers[j].mData);
+        for ( UInt32 j=0; j < i; j++ ) free(audio->mBuffers[j].mData);
         free(audio);
         return NULL;
       }
@@ -50,20 +50,20 @@ AudioBufferList *InitAudioBufferList(AudioStreamBasicDescription audioFormat, in
 }
 
 void FreeAudioBufferList(AudioBufferList *bufferList) {
-  for ( int i=0; i<bufferList->mNumberBuffers; i++ ) {
+  for ( UInt32 i = 0; i < bufferList->mNumberBuffers; i++ ) {
     if ( bufferList->mBuffers[i].mData ) free(bufferList->mBuffers[i].mData);
   }
   free(bufferList);
 }
 
-void ClearAudioBufferList(AudioBufferList *bufferList, const int frames) {
-  for ( int i = 0; i < bufferList->mNumberBuffers; i++ ) {
+void ClearAudioBufferList(AudioBufferList *bufferList, UInt32 frames) {
+  for ( UInt32 i = 0; i < bufferList->mNumberBuffers; i++ ) {
     vDSP_vclr((float *)bufferList->mBuffers[i].mData, 1, frames);
   }
 }
 
-void AudioBufferListMultiply(AudioBufferList *bufferList, const int frames, float value) {
-  for ( int i = 0; i < bufferList->mNumberBuffers; i++ ) {
+void AudioBufferListMultiply(AudioBufferList *bufferList, UInt32 frames, float value) {
+  for ( UInt32 i = 0; i < bufferList->mNumberBuffers; i++ ) {
     float *buffer = (float *)bufferList->mBuffers[i].mData;
     vDSP_vsmul(buffer, 1, &value, buffer, 1, frames);
   }

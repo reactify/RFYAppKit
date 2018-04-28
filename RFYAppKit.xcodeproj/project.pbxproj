@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C05979642094BAB100966418 /* XcodeWarnings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C05979632094BAB000966418 /* XcodeWarnings.xcconfig */; };
 		C0C8B7A620836606004BB9FD /* RFYAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C8B79C20836605004BB9FD /* RFYAppKit.framework */; };
 		C0C8B7AB20836606004BB9FD /* RFYAppKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7AA20836606004BB9FD /* RFYAppKitTests.m */; };
 		C0C8B7AD20836606004BB9FD /* RFYAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B79F20836605004BB9FD /* RFYAppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,10 +45,10 @@
 		C0C8B8A620837986004BB9FD /* NSDictionary+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89720837985004BB9FD /* NSDictionary+ObjectiveSugar.m */; };
 		C0C8B8A720837986004BB9FD /* NSDictionary+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89720837985004BB9FD /* NSDictionary+ObjectiveSugar.m */; };
 		C0C8B8A820837986004BB9FD /* NSNumber+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B89820837985004BB9FD /* NSNumber+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B8A920837986004BB9FD /* NSSet+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89920837985004BB9FD /* NSSet+ObjectiveSugar.m */; };
+		C0C8B8A920837986004BB9FD /* NSSet+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89920837985004BB9FD /* NSSet+ObjectiveSugar.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		C0C8B8AA20837986004BB9FD /* NSSet+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89920837985004BB9FD /* NSSet+ObjectiveSugar.m */; };
 		C0C8B8AB20837986004BB9FD /* NSString+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B89A20837985004BB9FD /* NSString+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B8AC20837986004BB9FD /* NSArray+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89B20837986004BB9FD /* NSArray+ObjectiveSugar.m */; };
+		C0C8B8AC20837986004BB9FD /* NSArray+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89B20837986004BB9FD /* NSArray+ObjectiveSugar.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		C0C8B8AD20837986004BB9FD /* NSArray+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89B20837986004BB9FD /* NSArray+ObjectiveSugar.m */; };
 		C0C8B8AE20837986004BB9FD /* NSSet+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B89C20837986004BB9FD /* NSSet+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0C8B8AF20837986004BB9FD /* NSDictionary+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B89D20837986004BB9FD /* NSDictionary+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -68,6 +69,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C05979632094BAB000966418 /* XcodeWarnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = XcodeWarnings.xcconfig; sourceTree = "<group>"; };
 		C0C8B79C20836605004BB9FD /* RFYAppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RFYAppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C8B79F20836605004BB9FD /* RFYAppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFYAppKit.h; sourceTree = "<group>"; };
 		C0C8B7A020836605004BB9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		C0C8B79220836605004BB9FD = {
 			isa = PBXGroup;
 			children = (
+				C05979632094BAB000966418 /* XcodeWarnings.xcconfig */,
 				C0C8B7BF20836639004BB9FD /* src */,
 				C0C8B79E20836605004BB9FD /* RFYAppKit */,
 				C0C8B7A920836606004BB9FD /* tests */,
@@ -350,6 +353,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C05979642094BAB100966418 /* XcodeWarnings.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,6 +423,7 @@
 /* Begin XCBuildConfiguration section */
 		C0C8B7AE20836606004BB9FD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C05979632094BAB000966418 /* XcodeWarnings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -477,6 +482,7 @@
 		};
 		C0C8B7AF20836606004BB9FD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C05979632094BAB000966418 /* XcodeWarnings.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;

@@ -27,13 +27,13 @@ static RFY_INLINE BOOL _checkResult(OSStatus result, const char *operation, cons
 
 AudioStreamBasicDescription nonInterleavedFloatStereo(void);
 
-AudioBufferList *InitAudioBufferList(AudioStreamBasicDescription format, int frameCount);
+AudioBufferList *InitAudioBufferList(AudioStreamBasicDescription format, UInt32 frameCount);
 
 void FreeAudioBufferList(AudioBufferList *bufferList);
 
-void ClearAudioBufferList(AudioBufferList *bufferList, const int frames);
+void ClearAudioBufferList(AudioBufferList *bufferList, UInt32 frames);
 
-void AudioBufferListMultiply(AudioBufferList *bufferList, const int frames, float value);
+void AudioBufferListMultiply(AudioBufferList *bufferList, UInt32 frames, float value);
 
 #endif /* RFYAudioUtils_h */
   

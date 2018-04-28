@@ -10,7 +10,6 @@
 #import "RFYUtils.h"
 #import "RFYAudioUtils.h"
 #import "NSArray+RFYUtilities.h"
-// #import "MCAudioEngine.h"
 #import "RFYAudioStemsPlayer.h"
 
 static void * RFYStemsPlayerContext = &RFYStemsPlayerContext;
@@ -29,7 +28,7 @@ static void * RFYStemsPlayerContext = &RFYStemsPlayerContext;
   [self removePlaybackObserver];
 }
 
-- (instancetype)initWithFiles:(NSArray<NSURL *>*)urls error:(NSError **)outError {
+- (instancetype)initWithFiles:(NSArray<NSURL *>*)urls error:(NSError * __autoreleasing *)outError {
   self = [super init];
   if ( self ) {
     [self loadFiles:urls];
@@ -89,14 +88,14 @@ static void * RFYStemsPlayerContext = &RFYStemsPlayerContext;
   for ( RFYAudioFilePlayer* player in _players ) {
     readFrames += [player process:_scratchBuffer length:frames];
     
-    for ( int i = 0; i < buffer->mNumberBuffers; i++ ) {
+    for ( UInt32 i = 0; i < buffer->mNumberBuffers; i++ ) {
       vDSP_vadd((float*)_scratchBuffer->mBuffers[i].mData, 1,
                 (float*)buffer->mBuffers[i].mData, 1,
                 (float*)buffer->mBuffers[i].mData, 1,
                 frames);
     }
   }
-  return readFrames / _players.count;
+  return readFrames / (int)_players.count;
 }
 
 - (void)audioFilePlayer:(RFYAudioFilePlayer *)player willQueueAudio:(AudioBufferList *)audio {

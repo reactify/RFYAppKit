@@ -30,11 +30,11 @@
   return automatic;
 }
 
-- (instancetype)initWithFile:(NSURL *)file error:(NSError **)outError {
+- (instancetype)initWithFile:(NSURL *)file error:(NSError * __autoreleasing *)outError {
   return [self initWithFiles:@[file] error:outError];
 }
 
-- (instancetype)initWithFiles:(NSArray<NSURL *> *)files error:(NSError **)outError {
+- (instancetype)initWithFiles:(NSArray<NSURL *> *)files error:(NSError * __autoreleasing *)outError {
   if ( !files || files.count == 0 ) {
     return nil;
   }
