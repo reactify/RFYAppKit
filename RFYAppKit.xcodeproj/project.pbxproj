@@ -131,7 +131,7 @@
 			children = (
 				C0C8B7BF20836639004BB9FD /* src */,
 				C0C8B79E20836605004BB9FD /* RFYAppKit */,
-				C0C8B7A920836606004BB9FD /* RFYAppKitTests */,
+				C0C8B7A920836606004BB9FD /* tests */,
 				C0C8B79D20836605004BB9FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -154,13 +154,13 @@
 			path = RFYAppKit;
 			sourceTree = "<group>";
 		};
-		C0C8B7A920836606004BB9FD /* RFYAppKitTests */ = {
+		C0C8B7A920836606004BB9FD /* tests */ = {
 			isa = PBXGroup;
 			children = (
 				C0C8B7AA20836606004BB9FD /* RFYAppKitTests.m */,
 				C0C8B7AC20836606004BB9FD /* Info.plist */,
 			);
-			path = RFYAppKitTests;
+			path = tests;
 			sourceTree = "<group>";
 		};
 		C0C8B7BF20836639004BB9FD /* src */ = {
@@ -584,7 +584,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J96W95JQUZ;
-				INFOPLIST_FILE = RFYAppKitTests/Info.plist;
+				INFOPLIST_FILE = tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reactify.RFYAppKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -597,7 +597,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J96W95JQUZ;
-				INFOPLIST_FILE = RFYAppKitTests/Info.plist;
+				INFOPLIST_FILE = tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.reactify.RFYAppKitTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
