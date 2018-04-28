@@ -18,6 +18,9 @@
 - (void)audioFilePlayerDidFinishPlayback:(id<RFYAudioPlayable>)player;
 @end
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wobjc-interface-ivars"
+
 @interface RFYAudioFilePlayer : NSObject <RFYAudioPlayable> {
 @protected
   float _volume;
@@ -45,3 +48,5 @@
 - (BOOL)loadFile:(NSURL *)file;
 
 @end
+
+#pragma clang diagnostic pop
