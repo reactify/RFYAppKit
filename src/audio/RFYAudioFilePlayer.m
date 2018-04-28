@@ -37,7 +37,7 @@ static const UInt32 kPlaybackBufferLengthInFrames = 8192;
 }
 
 //--------------------------------------------------------------
-- (instancetype)initWithFile:(NSURL *)url error:(NSError **)outError {
+- (instancetype)initWithFile:(NSURL *)url error:(NSError * __autoreleasing *)outError {
   if ( !(self = [super init]) ) {
     return nil;
   }
@@ -50,7 +50,7 @@ static const UInt32 kPlaybackBufferLengthInFrames = 8192;
   size_t frameSize = _audioFormat.mBytesPerFrame * _audioFormat.mChannelsPerFrame;
   size_t audioByteCount = kPlaybackBufferLengthInFrames * frameSize;
   size_t controlDataByteCount = (sizeof(AudioBufferList) + sizeof(AudioBuffer)) * 30;
-  TPCircularBufferInit( &_buffer, (int)(audioByteCount + controlDataByteCount) );
+  TPCircularBufferInit( &_buffer, (UInt32)(audioByteCount + controlDataByteCount) );
   
   if ( ![self loadFile:url] ) {
     return nil;
@@ -88,7 +88,7 @@ static const UInt32 kPlaybackBufferLengthInFrames = 8192;
     checkResult( ExtAudioFileGetProperty(_file, kExtAudioFileProperty_FileDataFormat, &propertySize, &fileFormat),
                 "Error getting file format");
     
-    fileSize * (_audioFormat.mSampleRate / fileFormat.mSampleRate);
+    (SInt64)((double)fileSize * (_audioFormat.mSampleRate / fileFormat.mSampleRate));
   });
   
   return YES;
@@ -137,7 +137,7 @@ static const UInt32 kPlaybackBufferLengthInFrames = 8192;
 //--------------------------------------------------------------
 - (void)setCurrentTime:(NSTimeInterval)seconds {
   if ( _file != NULL ) {
-    long int frames = seconds * _audioFormat.mSampleRate;
+    SInt64 frames = (SInt64)(seconds * _audioFormat.mSampleRate);
     checkResult( ExtAudioFileSeek(_file, frames), "Error seeking" );
   }
 }
@@ -165,10 +165,10 @@ static const UInt32 kPlaybackBufferLengthInFrames = 8192;
   else if ( toRead == 0 && [self __elapsedFrames] >= _totalFrames ) {
     [self stop];
     dispatch_after(DISPATCH_TIME_NOW, dispatch_get_main_queue(), ^{
-      [_delegate audioFilePlayerDidFinishPlayback:self];
+      [self->_delegate audioFilePlayerDidFinishPlayback:self];
     });
   }
-  return toRead;
+  return (int)toRead;
 }
 
 //--------------------------------------------------------------
@@ -202,7 +202,7 @@ static const UInt32 kPlaybackBufferLengthInFrames = 8192;
       
       if ( readFrames < frames ) {
         // We reached the end; update the audio buffer list to report the number of frames remaining
-        for ( int i = 0; i < bufferList->mNumberBuffers; i++ ) {
+        for ( UInt32 i = 0; i < bufferList->mNumberBuffers; i++ ) {
           bufferList->mBuffers[i].mDataByteSize = readFrames * _audioFormat.mBytesPerFrame;
         }
       }
