@@ -17,6 +17,7 @@ FOUNDATION_EXPORT const unsigned char RFYAppKitVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <RFYAppKit/PublicHeader.h>
 
 #import <RFYAppKit/RFYUtils.h>
+#import <RFYAppKit/RFYCache.h>
 #import <RFYAppKit/NSArray+RFYUtilities.h>
 
 #import <RFYAppKit/RFYAudioUtils.h>

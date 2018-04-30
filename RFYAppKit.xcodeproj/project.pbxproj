@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C016A0B4209726D800C898C4 /* RFYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C016A0B2209726D700C898C4 /* RFYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C016A0B5209726D800C898C4 /* RFYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C016A0B3209726D800C898C4 /* RFYCache.m */; };
 		C05979642094BAB100966418 /* XcodeWarnings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C05979632094BAB000966418 /* XcodeWarnings.xcconfig */; };
 		C0C8B7A620836606004BB9FD /* RFYAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C8B79C20836605004BB9FD /* RFYAppKit.framework */; };
 		C0C8B7AB20836606004BB9FD /* RFYAppKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7AA20836606004BB9FD /* RFYAppKitTests.m */; };
@@ -69,6 +71,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C016A0B2209726D700C898C4 /* RFYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYCache.h; sourceTree = "<group>"; };
+		C016A0B3209726D800C898C4 /* RFYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFYCache.m; sourceTree = "<group>"; };
 		C05979632094BAB000966418 /* XcodeWarnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = XcodeWarnings.xcconfig; sourceTree = "<group>"; };
 		C0C8B79C20836605004BB9FD /* RFYAppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RFYAppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C8B79F20836605004BB9FD /* RFYAppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFYAppKit.h; sourceTree = "<group>"; };
@@ -172,6 +176,8 @@
 				C0C8B7C020836639004BB9FD /* audio */,
 				C0C8B7E220836945004BB9FD /* RFYUtils.h */,
 				C0C8B7EA20836B9E004BB9FD /* RFYUtils.m */,
+				C016A0B2209726D700C898C4 /* RFYCache.h */,
+				C016A0B3209726D800C898C4 /* RFYCache.m */,
 				C0C8B7ED20836C54004BB9FD /* utilities */,
 			);
 			path = src;
@@ -263,11 +269,12 @@
 				C0C8B8A820837986004BB9FD /* NSNumber+ObjectiveSugar.h in Headers */,
 				C0C8B8092083783E004BB9FD /* TPCircularBuffer.h in Headers */,
 				C0C8B8A520837986004BB9FD /* NSMutableArray+ObjectiveSugar.h in Headers */,
-				C0C8B8B120837986004BB9FD /* NSArray+ObjectiveSugar.h in Headers */,
 				C0C8B8AE20837986004BB9FD /* NSSet+ObjectiveSugar.h in Headers */,
+				C0C8B8B120837986004BB9FD /* NSArray+ObjectiveSugar.h in Headers */,
 				C0C8B80A2083783E004BB9FD /* TPCircularBuffer+AudioBufferList.h in Headers */,
 				C0C8B7CD2083663A004BB9FD /* RFYAudioProducer.h in Headers */,
 				C0C8B7F020836C6D004BB9FD /* NSArray+RFYUtilities.h in Headers */,
+				C016A0B4209726D800C898C4 /* RFYCache.h in Headers */,
 				C0C8B7AD20836606004BB9FD /* RFYAppKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -377,6 +384,7 @@
 				C0C8B7EB20836B9E004BB9FD /* RFYUtils.m in Sources */,
 				C0C8B7CA2083663A004BB9FD /* RFYAudioFilePlayer.m in Sources */,
 				C0C8B8A320837986004BB9FD /* NSMutableArray+ObjectiveSugar.m in Sources */,
+				C016A0B5209726D800C898C4 /* RFYCache.m in Sources */,
 				C0C8B7D22083663A004BB9FD /* RFYAudioStemsPlayer.m in Sources */,
 				C0C8B8A120837986004BB9FD /* NSString+ObjectiveSugar.m in Sources */,
 				C0C8B8B220837986004BB9FD /* NSNumber+ObjectiveSugar.m in Sources */,
