@@ -45,6 +45,11 @@ static RFY_INLINE NSString* rfy_bundleName() {
   return [info objectForKey:(NSString *)kCFBundleNameKey];
 }
 
+static RFY_INLINE NSString* rfy_bundleId() {
+  let info = [[NSBundle mainBundle] infoDictionary];
+  return [info objectForKey:(NSString *)kCFBundleIdentifierKey];
+}
+
 #define RFYMainStoryboard() [UIStoryboard storyboardWithName:@"Main" bundle:nil]
 
 // Swift style type comparison
