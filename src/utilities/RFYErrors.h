@@ -17,4 +17,6 @@
  
 + (NSError *)userRejectedMicrophoneAccess;
 
++ (NSError *)noMailAccountFound;
+
 @end

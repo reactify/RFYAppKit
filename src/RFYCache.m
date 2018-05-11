@@ -1,6 +1,6 @@
 //
 //  RFYCache.m
-//  musiclarity
+//  RFYAppKit
 //
 //  Created by Ragnar Hrafnkelsson on 06/03/2018.
 //  Copyright © 2018 Reactify. All rights reserved.

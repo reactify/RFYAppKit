@@ -28,6 +28,17 @@ static NSString *RFYCustomErrorDomain = nil;
                          userInfo:userInfo];
 }
 
++ (NSError *)noMailAccountFound {
+  let userInfo = @{
+                   NSLocalizedDescriptionKey: NSLocalizedString(@"Unable to send email", @"Todo"),
+                   NSLocalizedFailureReasonErrorKey: NSLocalizedString(@"No accounts found", @"Todo"),
+                   NSLocalizedRecoverySuggestionErrorKey: NSLocalizedString(@"Please add an account in Settings", @"Todo")
+                   };
+  return [NSError errorWithDomain:[self errorDomain]
+                             code:11016
+                         userInfo:userInfo];
+}
+
 + (NSString *)errorDomain {
   return RFYCustomErrorDomain?: rfy_bundleId();
 }
