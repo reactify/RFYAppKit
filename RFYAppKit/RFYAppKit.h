@@ -18,6 +18,9 @@ FOUNDATION_EXPORT const unsigned char RFYAppKitVersionString[];
 
 #import <RFYAppKit/RFYUtils.h>
 #import <RFYAppKit/RFYCache.h>
+#import <RFYAppKit/RFYTask.h>
+#import <RFYAppKit/RFYErrors.h>
+#import <RFYAppKit/RFYPermissions.h>
 #import <RFYAppKit/NSArray+RFYUtilities.h>
 
 #import <RFYAppKit/RFYAudioUtils.h>
