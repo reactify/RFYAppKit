@@ -107,7 +107,7 @@
 			children = (
 				C05979632094BAB000966418 /* XcodeWarnings.xcconfig */,
 				C0E350D220E113C600CB9B52 /* Libs */,
-				C0C8B7BF20836639004BB9FD /* src */,
+				C0C8B7BF20836639004BB9FD /* Source */,
 				C0C8B79E20836605004BB9FD /* RFYAppKit */,
 				C0C8B7A920836606004BB9FD /* tests */,
 				C0C8B79D20836605004BB9FD /* Products */,
@@ -141,7 +141,7 @@
 			path = tests;
 			sourceTree = "<group>";
 		};
-		C0C8B7BF20836639004BB9FD /* src */ = {
+		C0C8B7BF20836639004BB9FD /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				C0C8B7E220836945004BB9FD /* RFYUtils.h */,
@@ -157,7 +157,7 @@
 				C0E34FE320E10DC100CB9B52 /* RFYTask.h */,
 				C0E34FDE20E10DC000CB9B52 /* RFYTask.m */,
 			);
-			path = src;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		C0E350D220E113C600CB9B52 /* Libs */ = {
