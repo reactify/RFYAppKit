@@ -1,6 +1,3 @@
-[submodule "src/audio/libs/TPCircularBuffer"]
-	path = src/audio/libs/TPCircularBuffer
-	url = https://github.com/michaeltyson/TPCircularBuffer.git
 [submodule "src/utilities/libs/ObjectiveSugar"]
 	path = src/utilities/libs/ObjectiveSugar
 	url = https://github.com/supermarin/ObjectiveSugar.git
