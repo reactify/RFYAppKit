@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C016A0B4209726D800C898C4 /* RFYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C016A0B2209726D700C898C4 /* RFYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C016A0B5209726D800C898C4 /* RFYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C016A0B3209726D800C898C4 /* RFYCache.m */; };
-		C05979642094BAB100966418 /* XcodeWarnings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C05979632094BAB000966418 /* XcodeWarnings.xcconfig */; };
 		C0C36F6420A59FD800056C26 /* RFYPermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C36F5E20A59FD700056C26 /* RFYPermissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0C36F6520A59FD800056C26 /* RFYErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C36F5F20A59FD700056C26 /* RFYErrors.m */; };
 		C0C36F6620A59FD800056C26 /* RFYPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C36F6020A59FD800056C26 /* RFYPermissions.m */; };
@@ -345,7 +344,7 @@
 		C0C8B79320836605004BB9FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Reactify;
 				TargetAttributes = {
 					C0C8B79B20836605004BB9FD = {
@@ -381,7 +380,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C05979642094BAB100966418 /* XcodeWarnings.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
