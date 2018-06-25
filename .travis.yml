@@ -1,6 +1,6 @@
 os: osx
 language: objective-c
-osx_image: xcode9.2
+osx_image: xcode9.4
 xcode_project: RFYAppKit.xcodeproj
 xcode_scheme: RFYAppKit
 script: xcodebuild build -project RFYAppKit.xcodeproj -scheme RFYAppKit
