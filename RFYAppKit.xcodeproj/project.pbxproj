@@ -15,27 +15,27 @@
 		C0C8B7E320836945004BB9FD /* RFYUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7E220836945004BB9FD /* RFYUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0C8B7EB20836B9E004BB9FD /* RFYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7EA20836B9E004BB9FD /* RFYUtils.m */; };
 		C0C8B7EC20836B9E004BB9FD /* RFYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7EA20836B9E004BB9FD /* RFYUtils.m */; };
-		C0E34FE420E10DC100CB9B52 /* NSArray+RFYUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E34FDC20E10DC000CB9B52 /* NSArray+RFYUtilities.h */; };
+		C0E34FE420E10DC100CB9B52 /* NSArray+RFYUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E34FDC20E10DC000CB9B52 /* NSArray+RFYUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0E34FE520E10DC100CB9B52 /* RFYPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E34FDD20E10DC000CB9B52 /* RFYPermissions.m */; };
 		C0E34FE620E10DC100CB9B52 /* RFYTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E34FDE20E10DC000CB9B52 /* RFYTask.m */; };
 		C0E34FE720E10DC100CB9B52 /* NSArray+RFYUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E34FDF20E10DC000CB9B52 /* NSArray+RFYUtilities.m */; };
 		C0E34FE820E10DC100CB9B52 /* RFYErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E34FE020E10DC000CB9B52 /* RFYErrors.m */; };
-		C0E34FE920E10DC100CB9B52 /* RFYPermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E34FE120E10DC000CB9B52 /* RFYPermissions.h */; };
-		C0E34FEA20E10DC100CB9B52 /* RFYErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E34FE220E10DC100CB9B52 /* RFYErrors.h */; };
-		C0E34FEB20E10DC100CB9B52 /* RFYTask.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E34FE320E10DC100CB9B52 /* RFYTask.h */; };
-		C0E3514520E113D300CB9B52 /* NSNumber+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3513820E113D300CB9B52 /* NSNumber+ObjectiveSugar.h */; };
-		C0E3514620E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3513920E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.h */; };
-		C0E3514720E113D300CB9B52 /* NSSet+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3513A20E113D300CB9B52 /* NSSet+ObjectiveSugar.h */; };
+		C0E34FE920E10DC100CB9B52 /* RFYPermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E34FE120E10DC000CB9B52 /* RFYPermissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E34FEA20E10DC100CB9B52 /* RFYErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E34FE220E10DC100CB9B52 /* RFYErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E34FEB20E10DC100CB9B52 /* RFYTask.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E34FE320E10DC100CB9B52 /* RFYTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E3514520E113D300CB9B52 /* NSNumber+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3513820E113D300CB9B52 /* NSNumber+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E3514620E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3513920E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E3514720E113D300CB9B52 /* NSSet+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3513A20E113D300CB9B52 /* NSSet+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0E3514820E113D300CB9B52 /* NSNumber+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3513B20E113D300CB9B52 /* NSNumber+ObjectiveSugar.m */; };
 		C0E3514920E113D300CB9B52 /* NSArray+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3513C20E113D300CB9B52 /* NSArray+ObjectiveSugar.m */; };
-		C0E3514A20E113D300CB9B52 /* NSArray+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3513D20E113D300CB9B52 /* NSArray+ObjectiveSugar.h */; };
+		C0E3514A20E113D300CB9B52 /* NSArray+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3513D20E113D300CB9B52 /* NSArray+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0E3514B20E113D300CB9B52 /* NSDictionary+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3513E20E113D300CB9B52 /* NSDictionary+ObjectiveSugar.m */; };
 		C0E3514C20E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3513F20E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.m */; };
 		C0E3514D20E113D300CB9B52 /* NSSet+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3514020E113D300CB9B52 /* NSSet+ObjectiveSugar.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		C0E3514E20E113D300CB9B52 /* NSString+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3514120E113D300CB9B52 /* NSString+ObjectiveSugar.h */; };
-		C0E3514F20E113D300CB9B52 /* NSDictionary+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3514220E113D300CB9B52 /* NSDictionary+ObjectiveSugar.h */; };
+		C0E3514E20E113D300CB9B52 /* NSString+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3514120E113D300CB9B52 /* NSString+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E3514F20E113D300CB9B52 /* NSDictionary+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3514220E113D300CB9B52 /* NSDictionary+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0E3515020E113D300CB9B52 /* NSString+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3514320E113D300CB9B52 /* NSString+ObjectiveSugar.m */; };
-		C0E3515120E113D300CB9B52 /* ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3514420E113D300CB9B52 /* ObjectiveSugar.h */; };
+		C0E3515120E113D300CB9B52 /* ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3514420E113D300CB9B52 /* ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,8 +187,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0E3514720E113D300CB9B52 /* NSSet+ObjectiveSugar.h in Headers */,
 				C0C8B7E320836945004BB9FD /* RFYUtils.h in Headers */,
+				C0E3514720E113D300CB9B52 /* NSSet+ObjectiveSugar.h in Headers */,
 				C0E3514520E113D300CB9B52 /* NSNumber+ObjectiveSugar.h in Headers */,
 				C0E3514E20E113D300CB9B52 /* NSString+ObjectiveSugar.h in Headers */,
 				C0E3515120E113D300CB9B52 /* ObjectiveSugar.h in Headers */,
@@ -196,11 +196,11 @@
 				C0E3514620E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.h in Headers */,
 				C0E34FEA20E10DC100CB9B52 /* RFYErrors.h in Headers */,
 				C0E3514A20E113D300CB9B52 /* NSArray+ObjectiveSugar.h in Headers */,
-				C016A0B4209726D800C898C4 /* RFYCache.h in Headers */,
-				C0C8B7AD20836606004BB9FD /* RFYAppKit.h in Headers */,
 				C0E34FE420E10DC100CB9B52 /* NSArray+RFYUtilities.h in Headers */,
 				C0E3514F20E113D300CB9B52 /* NSDictionary+ObjectiveSugar.h in Headers */,
 				C0E34FEB20E10DC100CB9B52 /* RFYTask.h in Headers */,
+				C016A0B4209726D800C898C4 /* RFYCache.h in Headers */,
+				C0C8B7AD20836606004BB9FD /* RFYAppKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
