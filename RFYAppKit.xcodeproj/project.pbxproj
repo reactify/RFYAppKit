@@ -9,61 +9,33 @@
 /* Begin PBXBuildFile section */
 		C016A0B4209726D800C898C4 /* RFYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C016A0B2209726D700C898C4 /* RFYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C016A0B5209726D800C898C4 /* RFYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C016A0B3209726D800C898C4 /* RFYCache.m */; };
-		C05979642094BAB100966418 /* XcodeWarnings.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C05979632094BAB000966418 /* XcodeWarnings.xcconfig */; };
-		C0C36F6420A59FD800056C26 /* RFYPermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C36F5E20A59FD700056C26 /* RFYPermissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C36F6520A59FD800056C26 /* RFYErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C36F5F20A59FD700056C26 /* RFYErrors.m */; };
-		C0C36F6620A59FD800056C26 /* RFYPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C36F6020A59FD800056C26 /* RFYPermissions.m */; };
-		C0C36F6720A59FD800056C26 /* RFYTask.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C36F6120A59FD800056C26 /* RFYTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C36F6820A59FD800056C26 /* RFYErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C36F6220A59FD800056C26 /* RFYErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C36F6920A59FD800056C26 /* RFYTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C36F6320A59FD800056C26 /* RFYTask.m */; };
 		C0C8B7A620836606004BB9FD /* RFYAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C8B79C20836605004BB9FD /* RFYAppKit.framework */; };
 		C0C8B7AB20836606004BB9FD /* RFYAppKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7AA20836606004BB9FD /* RFYAppKitTests.m */; };
 		C0C8B7AD20836606004BB9FD /* RFYAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B79F20836605004BB9FD /* RFYAppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7C92083663A004BB9FD /* RFYAudioFilePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7C120836639004BB9FD /* RFYAudioFilePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7CA2083663A004BB9FD /* RFYAudioFilePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7C220836639004BB9FD /* RFYAudioFilePlayer.m */; };
-		C0C8B7CB2083663A004BB9FD /* RFYAudioFilePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7C220836639004BB9FD /* RFYAudioFilePlayer.m */; };
-		C0C8B7CC2083663A004BB9FD /* RFYAudioPlayable.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7C320836639004BB9FD /* RFYAudioPlayable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7CD2083663A004BB9FD /* RFYAudioProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7C420836639004BB9FD /* RFYAudioProducer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7CE2083663A004BB9FD /* RFYAudioQueuePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7C520836639004BB9FD /* RFYAudioQueuePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7CF2083663A004BB9FD /* RFYAudioQueuePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7C620836639004BB9FD /* RFYAudioQueuePlayer.m */; };
-		C0C8B7D02083663A004BB9FD /* RFYAudioQueuePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7C620836639004BB9FD /* RFYAudioQueuePlayer.m */; };
-		C0C8B7D12083663A004BB9FD /* RFYAudioStemsPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7C720836639004BB9FD /* RFYAudioStemsPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7D22083663A004BB9FD /* RFYAudioStemsPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7C820836639004BB9FD /* RFYAudioStemsPlayer.m */; };
-		C0C8B7D32083663A004BB9FD /* RFYAudioStemsPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7C820836639004BB9FD /* RFYAudioStemsPlayer.m */; };
 		C0C8B7E320836945004BB9FD /* RFYUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7E220836945004BB9FD /* RFYUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7E720836A17004BB9FD /* RFYAudioUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7E520836A17004BB9FD /* RFYAudioUtils.m */; };
-		C0C8B7E820836A17004BB9FD /* RFYAudioUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7E520836A17004BB9FD /* RFYAudioUtils.m */; };
-		C0C8B7E920836A17004BB9FD /* RFYAudioUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7E620836A17004BB9FD /* RFYAudioUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0C8B7EB20836B9E004BB9FD /* RFYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7EA20836B9E004BB9FD /* RFYUtils.m */; };
 		C0C8B7EC20836B9E004BB9FD /* RFYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7EA20836B9E004BB9FD /* RFYUtils.m */; };
-		C0C8B7F020836C6D004BB9FD /* NSArray+RFYUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7EE20836C6C004BB9FD /* NSArray+RFYUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7F120836C6D004BB9FD /* NSArray+RFYUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7EF20836C6C004BB9FD /* NSArray+RFYUtilities.m */; };
-		C0C8B7F220836C6D004BB9FD /* NSArray+RFYUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7EF20836C6C004BB9FD /* NSArray+RFYUtilities.m */; };
-		C0C8B8072083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B8032083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c */; };
-		C0C8B8082083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B8032083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c */; };
-		C0C8B8092083783E004BB9FD /* TPCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B8042083783E004BB9FD /* TPCircularBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B80A2083783E004BB9FD /* TPCircularBuffer+AudioBufferList.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B8052083783E004BB9FD /* TPCircularBuffer+AudioBufferList.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B80B2083783E004BB9FD /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B8062083783E004BB9FD /* TPCircularBuffer.c */; };
-		C0C8B80C2083783E004BB9FD /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B8062083783E004BB9FD /* TPCircularBuffer.c */; };
-		C0C8B8A120837986004BB9FD /* NSString+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89420837985004BB9FD /* NSString+ObjectiveSugar.m */; };
-		C0C8B8A220837986004BB9FD /* NSString+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89420837985004BB9FD /* NSString+ObjectiveSugar.m */; };
-		C0C8B8A320837986004BB9FD /* NSMutableArray+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89520837985004BB9FD /* NSMutableArray+ObjectiveSugar.m */; };
-		C0C8B8A420837986004BB9FD /* NSMutableArray+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89520837985004BB9FD /* NSMutableArray+ObjectiveSugar.m */; };
-		C0C8B8A520837986004BB9FD /* NSMutableArray+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B89620837985004BB9FD /* NSMutableArray+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B8A620837986004BB9FD /* NSDictionary+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89720837985004BB9FD /* NSDictionary+ObjectiveSugar.m */; };
-		C0C8B8A720837986004BB9FD /* NSDictionary+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89720837985004BB9FD /* NSDictionary+ObjectiveSugar.m */; };
-		C0C8B8A820837986004BB9FD /* NSNumber+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B89820837985004BB9FD /* NSNumber+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B8A920837986004BB9FD /* NSSet+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89920837985004BB9FD /* NSSet+ObjectiveSugar.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		C0C8B8AA20837986004BB9FD /* NSSet+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89920837985004BB9FD /* NSSet+ObjectiveSugar.m */; };
-		C0C8B8AB20837986004BB9FD /* NSString+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B89A20837985004BB9FD /* NSString+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B8AC20837986004BB9FD /* NSArray+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89B20837986004BB9FD /* NSArray+ObjectiveSugar.m */; settings = {COMPILER_FLAGS = "-w"; }; };
-		C0C8B8AD20837986004BB9FD /* NSArray+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89B20837986004BB9FD /* NSArray+ObjectiveSugar.m */; };
-		C0C8B8AE20837986004BB9FD /* NSSet+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B89C20837986004BB9FD /* NSSet+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B8AF20837986004BB9FD /* NSDictionary+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B89D20837986004BB9FD /* NSDictionary+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B8B020837986004BB9FD /* ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B89E20837986004BB9FD /* ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B8B120837986004BB9FD /* NSArray+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B89F20837986004BB9FD /* NSArray+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B8B220837986004BB9FD /* NSNumber+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B8A020837986004BB9FD /* NSNumber+ObjectiveSugar.m */; };
-		C0C8B8B320837986004BB9FD /* NSNumber+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B8A020837986004BB9FD /* NSNumber+ObjectiveSugar.m */; };
+		C0E34FE420E10DC100CB9B52 /* NSArray+RFYUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E34FDC20E10DC000CB9B52 /* NSArray+RFYUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E34FE520E10DC100CB9B52 /* RFYPermissions.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E34FDD20E10DC000CB9B52 /* RFYPermissions.m */; };
+		C0E34FE620E10DC100CB9B52 /* RFYTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E34FDE20E10DC000CB9B52 /* RFYTask.m */; };
+		C0E34FE720E10DC100CB9B52 /* NSArray+RFYUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E34FDF20E10DC000CB9B52 /* NSArray+RFYUtilities.m */; };
+		C0E34FE820E10DC100CB9B52 /* RFYErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E34FE020E10DC000CB9B52 /* RFYErrors.m */; };
+		C0E34FE920E10DC100CB9B52 /* RFYPermissions.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E34FE120E10DC000CB9B52 /* RFYPermissions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E34FEA20E10DC100CB9B52 /* RFYErrors.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E34FE220E10DC100CB9B52 /* RFYErrors.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E34FEB20E10DC100CB9B52 /* RFYTask.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E34FE320E10DC100CB9B52 /* RFYTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E3514520E113D300CB9B52 /* NSNumber+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3513820E113D300CB9B52 /* NSNumber+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E3514620E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3513920E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E3514720E113D300CB9B52 /* NSSet+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3513A20E113D300CB9B52 /* NSSet+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E3514820E113D300CB9B52 /* NSNumber+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3513B20E113D300CB9B52 /* NSNumber+ObjectiveSugar.m */; };
+		C0E3514920E113D300CB9B52 /* NSArray+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3513C20E113D300CB9B52 /* NSArray+ObjectiveSugar.m */; };
+		C0E3514A20E113D300CB9B52 /* NSArray+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3513D20E113D300CB9B52 /* NSArray+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E3514B20E113D300CB9B52 /* NSDictionary+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3513E20E113D300CB9B52 /* NSDictionary+ObjectiveSugar.m */; };
+		C0E3514C20E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3513F20E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.m */; };
+		C0E3514D20E113D300CB9B52 /* NSSet+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3514020E113D300CB9B52 /* NSSet+ObjectiveSugar.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		C0E3514E20E113D300CB9B52 /* NSString+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3514120E113D300CB9B52 /* NSString+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E3514F20E113D300CB9B52 /* NSDictionary+ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3514220E113D300CB9B52 /* NSDictionary+ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0E3515020E113D300CB9B52 /* NSString+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E3514320E113D300CB9B52 /* NSString+ObjectiveSugar.m */; };
+		C0E3515120E113D300CB9B52 /* ObjectiveSugar.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E3514420E113D300CB9B52 /* ObjectiveSugar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,49 +52,35 @@
 		C016A0B2209726D700C898C4 /* RFYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYCache.h; sourceTree = "<group>"; };
 		C016A0B3209726D800C898C4 /* RFYCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFYCache.m; sourceTree = "<group>"; };
 		C05979632094BAB000966418 /* XcodeWarnings.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = XcodeWarnings.xcconfig; sourceTree = "<group>"; };
-		C0C36F5E20A59FD700056C26 /* RFYPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYPermissions.h; sourceTree = "<group>"; };
-		C0C36F5F20A59FD700056C26 /* RFYErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFYErrors.m; sourceTree = "<group>"; };
-		C0C36F6020A59FD800056C26 /* RFYPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFYPermissions.m; sourceTree = "<group>"; };
-		C0C36F6120A59FD800056C26 /* RFYTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYTask.h; sourceTree = "<group>"; };
-		C0C36F6220A59FD800056C26 /* RFYErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYErrors.h; sourceTree = "<group>"; };
-		C0C36F6320A59FD800056C26 /* RFYTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFYTask.m; sourceTree = "<group>"; };
 		C0C8B79C20836605004BB9FD /* RFYAppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RFYAppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C8B79F20836605004BB9FD /* RFYAppKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFYAppKit.h; sourceTree = "<group>"; };
 		C0C8B7A020836605004BB9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0C8B7A520836606004BB9FD /* RFYAppKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFYAppKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C8B7AA20836606004BB9FD /* RFYAppKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFYAppKitTests.m; sourceTree = "<group>"; };
 		C0C8B7AC20836606004BB9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0C8B7C120836639004BB9FD /* RFYAudioFilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYAudioFilePlayer.h; sourceTree = "<group>"; };
-		C0C8B7C220836639004BB9FD /* RFYAudioFilePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFYAudioFilePlayer.m; sourceTree = "<group>"; };
-		C0C8B7C320836639004BB9FD /* RFYAudioPlayable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYAudioPlayable.h; sourceTree = "<group>"; };
-		C0C8B7C420836639004BB9FD /* RFYAudioProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYAudioProducer.h; sourceTree = "<group>"; };
-		C0C8B7C520836639004BB9FD /* RFYAudioQueuePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYAudioQueuePlayer.h; sourceTree = "<group>"; };
-		C0C8B7C620836639004BB9FD /* RFYAudioQueuePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFYAudioQueuePlayer.m; sourceTree = "<group>"; };
-		C0C8B7C720836639004BB9FD /* RFYAudioStemsPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYAudioStemsPlayer.h; sourceTree = "<group>"; };
-		C0C8B7C820836639004BB9FD /* RFYAudioStemsPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFYAudioStemsPlayer.m; sourceTree = "<group>"; };
 		C0C8B7E220836945004BB9FD /* RFYUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFYUtils.h; sourceTree = "<group>"; };
-		C0C8B7E520836A17004BB9FD /* RFYAudioUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFYAudioUtils.m; sourceTree = "<group>"; };
-		C0C8B7E620836A17004BB9FD /* RFYAudioUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFYAudioUtils.h; sourceTree = "<group>"; };
 		C0C8B7EA20836B9E004BB9FD /* RFYUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFYUtils.m; sourceTree = "<group>"; };
-		C0C8B7EE20836C6C004BB9FD /* NSArray+RFYUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RFYUtilities.h"; sourceTree = "<group>"; };
-		C0C8B7EF20836C6C004BB9FD /* NSArray+RFYUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RFYUtilities.m"; sourceTree = "<group>"; };
-		C0C8B8032083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "TPCircularBuffer+AudioBufferList.c"; path = "TPCircularBuffer/TPCircularBuffer+AudioBufferList.c"; sourceTree = "<group>"; };
-		C0C8B8042083783E004BB9FD /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPCircularBuffer.h; path = TPCircularBuffer/TPCircularBuffer.h; sourceTree = "<group>"; };
-		C0C8B8052083783E004BB9FD /* TPCircularBuffer+AudioBufferList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TPCircularBuffer+AudioBufferList.h"; path = "TPCircularBuffer/TPCircularBuffer+AudioBufferList.h"; sourceTree = "<group>"; };
-		C0C8B8062083783E004BB9FD /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = TPCircularBuffer.c; path = TPCircularBuffer/TPCircularBuffer.c; sourceTree = "<group>"; };
-		C0C8B89420837985004BB9FD /* NSString+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ObjectiveSugar.m"; path = "Classes/NSString+ObjectiveSugar.m"; sourceTree = "<group>"; };
-		C0C8B89520837985004BB9FD /* NSMutableArray+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+ObjectiveSugar.m"; path = "Classes/NSMutableArray+ObjectiveSugar.m"; sourceTree = "<group>"; };
-		C0C8B89620837985004BB9FD /* NSMutableArray+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+ObjectiveSugar.h"; path = "Classes/NSMutableArray+ObjectiveSugar.h"; sourceTree = "<group>"; };
-		C0C8B89720837985004BB9FD /* NSDictionary+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+ObjectiveSugar.m"; path = "Classes/NSDictionary+ObjectiveSugar.m"; sourceTree = "<group>"; };
-		C0C8B89820837985004BB9FD /* NSNumber+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+ObjectiveSugar.h"; path = "Classes/NSNumber+ObjectiveSugar.h"; sourceTree = "<group>"; };
-		C0C8B89920837985004BB9FD /* NSSet+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSSet+ObjectiveSugar.m"; path = "Classes/NSSet+ObjectiveSugar.m"; sourceTree = "<group>"; };
-		C0C8B89A20837985004BB9FD /* NSString+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ObjectiveSugar.h"; path = "Classes/NSString+ObjectiveSugar.h"; sourceTree = "<group>"; };
-		C0C8B89B20837986004BB9FD /* NSArray+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+ObjectiveSugar.m"; path = "Classes/NSArray+ObjectiveSugar.m"; sourceTree = "<group>"; };
-		C0C8B89C20837986004BB9FD /* NSSet+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSSet+ObjectiveSugar.h"; path = "Classes/NSSet+ObjectiveSugar.h"; sourceTree = "<group>"; };
-		C0C8B89D20837986004BB9FD /* NSDictionary+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+ObjectiveSugar.h"; path = "Classes/NSDictionary+ObjectiveSugar.h"; sourceTree = "<group>"; };
-		C0C8B89E20837986004BB9FD /* ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectiveSugar.h; path = Classes/ObjectiveSugar.h; sourceTree = "<group>"; };
-		C0C8B89F20837986004BB9FD /* NSArray+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+ObjectiveSugar.h"; path = "Classes/NSArray+ObjectiveSugar.h"; sourceTree = "<group>"; };
-		C0C8B8A020837986004BB9FD /* NSNumber+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+ObjectiveSugar.m"; path = "Classes/NSNumber+ObjectiveSugar.m"; sourceTree = "<group>"; };
+		C0E34FDC20E10DC000CB9B52 /* NSArray+RFYUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+RFYUtilities.h"; sourceTree = "<group>"; };
+		C0E34FDD20E10DC000CB9B52 /* RFYPermissions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFYPermissions.m; sourceTree = "<group>"; };
+		C0E34FDE20E10DC000CB9B52 /* RFYTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFYTask.m; sourceTree = "<group>"; };
+		C0E34FDF20E10DC000CB9B52 /* NSArray+RFYUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+RFYUtilities.m"; sourceTree = "<group>"; };
+		C0E34FE020E10DC000CB9B52 /* RFYErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFYErrors.m; sourceTree = "<group>"; };
+		C0E34FE120E10DC000CB9B52 /* RFYPermissions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYPermissions.h; sourceTree = "<group>"; };
+		C0E34FE220E10DC100CB9B52 /* RFYErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYErrors.h; sourceTree = "<group>"; };
+		C0E34FE320E10DC100CB9B52 /* RFYTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYTask.h; sourceTree = "<group>"; };
+		C0E3513820E113D300CB9B52 /* NSNumber+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSNumber+ObjectiveSugar.h"; path = "ObjectiveSugar/Classes/NSNumber+ObjectiveSugar.h"; sourceTree = "<group>"; };
+		C0E3513920E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+ObjectiveSugar.h"; path = "ObjectiveSugar/Classes/NSMutableArray+ObjectiveSugar.h"; sourceTree = "<group>"; };
+		C0E3513A20E113D300CB9B52 /* NSSet+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSSet+ObjectiveSugar.h"; path = "ObjectiveSugar/Classes/NSSet+ObjectiveSugar.h"; sourceTree = "<group>"; };
+		C0E3513B20E113D300CB9B52 /* NSNumber+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+ObjectiveSugar.m"; path = "ObjectiveSugar/Classes/NSNumber+ObjectiveSugar.m"; sourceTree = "<group>"; };
+		C0E3513C20E113D300CB9B52 /* NSArray+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+ObjectiveSugar.m"; path = "ObjectiveSugar/Classes/NSArray+ObjectiveSugar.m"; sourceTree = "<group>"; };
+		C0E3513D20E113D300CB9B52 /* NSArray+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+ObjectiveSugar.h"; path = "ObjectiveSugar/Classes/NSArray+ObjectiveSugar.h"; sourceTree = "<group>"; };
+		C0E3513E20E113D300CB9B52 /* NSDictionary+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+ObjectiveSugar.m"; path = "ObjectiveSugar/Classes/NSDictionary+ObjectiveSugar.m"; sourceTree = "<group>"; };
+		C0E3513F20E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+ObjectiveSugar.m"; path = "ObjectiveSugar/Classes/NSMutableArray+ObjectiveSugar.m"; sourceTree = "<group>"; };
+		C0E3514020E113D300CB9B52 /* NSSet+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSSet+ObjectiveSugar.m"; path = "ObjectiveSugar/Classes/NSSet+ObjectiveSugar.m"; sourceTree = "<group>"; };
+		C0E3514120E113D300CB9B52 /* NSString+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ObjectiveSugar.h"; path = "ObjectiveSugar/Classes/NSString+ObjectiveSugar.h"; sourceTree = "<group>"; };
+		C0E3514220E113D300CB9B52 /* NSDictionary+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+ObjectiveSugar.h"; path = "ObjectiveSugar/Classes/NSDictionary+ObjectiveSugar.h"; sourceTree = "<group>"; };
+		C0E3514320E113D300CB9B52 /* NSString+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ObjectiveSugar.m"; path = "ObjectiveSugar/Classes/NSString+ObjectiveSugar.m"; sourceTree = "<group>"; };
+		C0E3514420E113D300CB9B52 /* ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectiveSugar.h; path = ObjectiveSugar/Classes/ObjectiveSugar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +106,8 @@
 			isa = PBXGroup;
 			children = (
 				C05979632094BAB000966418 /* XcodeWarnings.xcconfig */,
-				C0C8B7BF20836639004BB9FD /* src */,
+				C0E350D220E113C600CB9B52 /* Libs */,
+				C0C8B7BF20836639004BB9FD /* Source */,
 				C0C8B79E20836605004BB9FD /* RFYAppKit */,
 				C0C8B7A920836606004BB9FD /* tests */,
 				C0C8B79D20836605004BB9FD /* Products */,
@@ -182,90 +141,43 @@
 			path = tests;
 			sourceTree = "<group>";
 		};
-		C0C8B7BF20836639004BB9FD /* src */ = {
+		C0C8B7BF20836639004BB9FD /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				C0C8B7C020836639004BB9FD /* audio */,
 				C0C8B7E220836945004BB9FD /* RFYUtils.h */,
 				C0C8B7EA20836B9E004BB9FD /* RFYUtils.m */,
 				C016A0B2209726D700C898C4 /* RFYCache.h */,
 				C016A0B3209726D800C898C4 /* RFYCache.m */,
-				C0C8B7ED20836C54004BB9FD /* utilities */,
+				C0E34FDC20E10DC000CB9B52 /* NSArray+RFYUtilities.h */,
+				C0E34FDF20E10DC000CB9B52 /* NSArray+RFYUtilities.m */,
+				C0E34FE220E10DC100CB9B52 /* RFYErrors.h */,
+				C0E34FE020E10DC000CB9B52 /* RFYErrors.m */,
+				C0E34FE120E10DC000CB9B52 /* RFYPermissions.h */,
+				C0E34FDD20E10DC000CB9B52 /* RFYPermissions.m */,
+				C0E34FE320E10DC100CB9B52 /* RFYTask.h */,
+				C0E34FDE20E10DC000CB9B52 /* RFYTask.m */,
 			);
-			path = src;
+			path = Source;
 			sourceTree = "<group>";
 		};
-		C0C8B7C020836639004BB9FD /* audio */ = {
+		C0E350D220E113C600CB9B52 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
-				C0C8B80220836E2C004BB9FD /* libs */,
-				C0C8B7C120836639004BB9FD /* RFYAudioFilePlayer.h */,
-				C0C8B7C220836639004BB9FD /* RFYAudioFilePlayer.m */,
-				C0C8B7C320836639004BB9FD /* RFYAudioPlayable.h */,
-				C0C8B7C420836639004BB9FD /* RFYAudioProducer.h */,
-				C0C8B7C520836639004BB9FD /* RFYAudioQueuePlayer.h */,
-				C0C8B7C620836639004BB9FD /* RFYAudioQueuePlayer.m */,
-				C0C8B7C720836639004BB9FD /* RFYAudioStemsPlayer.h */,
-				C0C8B7C820836639004BB9FD /* RFYAudioStemsPlayer.m */,
-				C0C8B7E620836A17004BB9FD /* RFYAudioUtils.h */,
-				C0C8B7E520836A17004BB9FD /* RFYAudioUtils.m */,
+				C0E3513D20E113D300CB9B52 /* NSArray+ObjectiveSugar.h */,
+				C0E3513C20E113D300CB9B52 /* NSArray+ObjectiveSugar.m */,
+				C0E3514220E113D300CB9B52 /* NSDictionary+ObjectiveSugar.h */,
+				C0E3513E20E113D300CB9B52 /* NSDictionary+ObjectiveSugar.m */,
+				C0E3513920E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.h */,
+				C0E3513F20E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.m */,
+				C0E3513820E113D300CB9B52 /* NSNumber+ObjectiveSugar.h */,
+				C0E3513B20E113D300CB9B52 /* NSNumber+ObjectiveSugar.m */,
+				C0E3513A20E113D300CB9B52 /* NSSet+ObjectiveSugar.h */,
+				C0E3514020E113D300CB9B52 /* NSSet+ObjectiveSugar.m */,
+				C0E3514120E113D300CB9B52 /* NSString+ObjectiveSugar.h */,
+				C0E3514320E113D300CB9B52 /* NSString+ObjectiveSugar.m */,
+				C0E3514420E113D300CB9B52 /* ObjectiveSugar.h */,
 			);
-			path = audio;
-			sourceTree = "<group>";
-		};
-		C0C8B7ED20836C54004BB9FD /* utilities */ = {
-			isa = PBXGroup;
-			children = (
-				C0C8B80D208378D9004BB9FD /* libs */,
-				C0C8B7EE20836C6C004BB9FD /* NSArray+RFYUtilities.h */,
-				C0C8B7EF20836C6C004BB9FD /* NSArray+RFYUtilities.m */,
-				C0C36F6220A59FD800056C26 /* RFYErrors.h */,
-				C0C36F5F20A59FD700056C26 /* RFYErrors.m */,
-				C0C36F5E20A59FD700056C26 /* RFYPermissions.h */,
-				C0C36F6020A59FD800056C26 /* RFYPermissions.m */,
-				C0C36F6120A59FD800056C26 /* RFYTask.h */,
-				C0C36F6320A59FD800056C26 /* RFYTask.m */,
-			);
-			path = utilities;
-			sourceTree = "<group>";
-		};
-		C0C8B80220836E2C004BB9FD /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				C0C8B8062083783E004BB9FD /* TPCircularBuffer.c */,
-				C0C8B8042083783E004BB9FD /* TPCircularBuffer.h */,
-				C0C8B8032083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c */,
-				C0C8B8052083783E004BB9FD /* TPCircularBuffer+AudioBufferList.h */,
-			);
-			path = libs;
-			sourceTree = "<group>";
-		};
-		C0C8B80D208378D9004BB9FD /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				C0C8B80E20837945004BB9FD /* ObjectiveSugar */,
-			);
-			path = libs;
-			sourceTree = "<group>";
-		};
-		C0C8B80E20837945004BB9FD /* ObjectiveSugar */ = {
-			isa = PBXGroup;
-			children = (
-				C0C8B89F20837986004BB9FD /* NSArray+ObjectiveSugar.h */,
-				C0C8B89B20837986004BB9FD /* NSArray+ObjectiveSugar.m */,
-				C0C8B89D20837986004BB9FD /* NSDictionary+ObjectiveSugar.h */,
-				C0C8B89720837985004BB9FD /* NSDictionary+ObjectiveSugar.m */,
-				C0C8B89620837985004BB9FD /* NSMutableArray+ObjectiveSugar.h */,
-				C0C8B89520837985004BB9FD /* NSMutableArray+ObjectiveSugar.m */,
-				C0C8B89820837985004BB9FD /* NSNumber+ObjectiveSugar.h */,
-				C0C8B8A020837986004BB9FD /* NSNumber+ObjectiveSugar.m */,
-				C0C8B89C20837986004BB9FD /* NSSet+ObjectiveSugar.h */,
-				C0C8B89920837985004BB9FD /* NSSet+ObjectiveSugar.m */,
-				C0C8B89A20837985004BB9FD /* NSString+ObjectiveSugar.h */,
-				C0C8B89420837985004BB9FD /* NSString+ObjectiveSugar.m */,
-				C0C8B89E20837986004BB9FD /* ObjectiveSugar.h */,
-			);
-			path = ObjectiveSugar;
+			path = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,26 +187,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C8B7CE2083663A004BB9FD /* RFYAudioQueuePlayer.h in Headers */,
-				C0C8B7D12083663A004BB9FD /* RFYAudioStemsPlayer.h in Headers */,
-				C0C8B7C92083663A004BB9FD /* RFYAudioFilePlayer.h in Headers */,
 				C0C8B7E320836945004BB9FD /* RFYUtils.h in Headers */,
-				C0C8B7E920836A17004BB9FD /* RFYAudioUtils.h in Headers */,
-				C0C8B7CC2083663A004BB9FD /* RFYAudioPlayable.h in Headers */,
-				C0C8B8AF20837986004BB9FD /* NSDictionary+ObjectiveSugar.h in Headers */,
-				C0C8B8AB20837986004BB9FD /* NSString+ObjectiveSugar.h in Headers */,
-				C0C8B8B020837986004BB9FD /* ObjectiveSugar.h in Headers */,
-				C0C8B8A820837986004BB9FD /* NSNumber+ObjectiveSugar.h in Headers */,
-				C0C8B8092083783E004BB9FD /* TPCircularBuffer.h in Headers */,
-				C0C8B8A520837986004BB9FD /* NSMutableArray+ObjectiveSugar.h in Headers */,
-				C0C8B8AE20837986004BB9FD /* NSSet+ObjectiveSugar.h in Headers */,
-				C0C8B8B120837986004BB9FD /* NSArray+ObjectiveSugar.h in Headers */,
-				C0C8B80A2083783E004BB9FD /* TPCircularBuffer+AudioBufferList.h in Headers */,
-				C0C8B7CD2083663A004BB9FD /* RFYAudioProducer.h in Headers */,
-				C0C8B7F020836C6D004BB9FD /* NSArray+RFYUtilities.h in Headers */,
-				C0C36F6420A59FD800056C26 /* RFYPermissions.h in Headers */,
-				C0C36F6820A59FD800056C26 /* RFYErrors.h in Headers */,
-				C0C36F6720A59FD800056C26 /* RFYTask.h in Headers */,
+				C0E3514720E113D300CB9B52 /* NSSet+ObjectiveSugar.h in Headers */,
+				C0E3514520E113D300CB9B52 /* NSNumber+ObjectiveSugar.h in Headers */,
+				C0E3514E20E113D300CB9B52 /* NSString+ObjectiveSugar.h in Headers */,
+				C0E3515120E113D300CB9B52 /* ObjectiveSugar.h in Headers */,
+				C0E34FE920E10DC100CB9B52 /* RFYPermissions.h in Headers */,
+				C0E3514620E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.h in Headers */,
+				C0E34FEA20E10DC100CB9B52 /* RFYErrors.h in Headers */,
+				C0E3514A20E113D300CB9B52 /* NSArray+ObjectiveSugar.h in Headers */,
+				C0E34FE420E10DC100CB9B52 /* NSArray+RFYUtilities.h in Headers */,
+				C0E3514F20E113D300CB9B52 /* NSDictionary+ObjectiveSugar.h in Headers */,
+				C0E34FEB20E10DC100CB9B52 /* RFYTask.h in Headers */,
 				C016A0B4209726D800C898C4 /* RFYCache.h in Headers */,
 				C0C8B7AD20836606004BB9FD /* RFYAppKit.h in Headers */,
 			);
@@ -345,7 +249,7 @@
 		C0C8B79320836605004BB9FD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Reactify;
 				TargetAttributes = {
 					C0C8B79B20836605004BB9FD = {
@@ -381,7 +285,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C05979642094BAB100966418 /* XcodeWarnings.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,24 +302,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C8B8072083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c in Sources */,
-				C0C8B7E720836A17004BB9FD /* RFYAudioUtils.m in Sources */,
-				C0C36F6620A59FD800056C26 /* RFYPermissions.m in Sources */,
-				C0C8B8A920837986004BB9FD /* NSSet+ObjectiveSugar.m in Sources */,
 				C0C8B7EB20836B9E004BB9FD /* RFYUtils.m in Sources */,
-				C0C36F6520A59FD800056C26 /* RFYErrors.m in Sources */,
-				C0C36F6920A59FD800056C26 /* RFYTask.m in Sources */,
-				C0C8B7CA2083663A004BB9FD /* RFYAudioFilePlayer.m in Sources */,
-				C0C8B8A320837986004BB9FD /* NSMutableArray+ObjectiveSugar.m in Sources */,
+				C0E3514D20E113D300CB9B52 /* NSSet+ObjectiveSugar.m in Sources */,
+				C0E3514B20E113D300CB9B52 /* NSDictionary+ObjectiveSugar.m in Sources */,
+				C0E34FE820E10DC100CB9B52 /* RFYErrors.m in Sources */,
+				C0E34FE520E10DC100CB9B52 /* RFYPermissions.m in Sources */,
+				C0E3514820E113D300CB9B52 /* NSNumber+ObjectiveSugar.m in Sources */,
 				C016A0B5209726D800C898C4 /* RFYCache.m in Sources */,
-				C0C8B7D22083663A004BB9FD /* RFYAudioStemsPlayer.m in Sources */,
-				C0C8B8A120837986004BB9FD /* NSString+ObjectiveSugar.m in Sources */,
-				C0C8B8B220837986004BB9FD /* NSNumber+ObjectiveSugar.m in Sources */,
-				C0C8B8A620837986004BB9FD /* NSDictionary+ObjectiveSugar.m in Sources */,
-				C0C8B8AC20837986004BB9FD /* NSArray+ObjectiveSugar.m in Sources */,
-				C0C8B7CF2083663A004BB9FD /* RFYAudioQueuePlayer.m in Sources */,
-				C0C8B80B2083783E004BB9FD /* TPCircularBuffer.c in Sources */,
-				C0C8B7F120836C6D004BB9FD /* NSArray+RFYUtilities.m in Sources */,
+				C0E34FE720E10DC100CB9B52 /* NSArray+RFYUtilities.m in Sources */,
+				C0E34FE620E10DC100CB9B52 /* RFYTask.m in Sources */,
+				C0E3514920E113D300CB9B52 /* NSArray+ObjectiveSugar.m in Sources */,
+				C0E3514C20E113D300CB9B52 /* NSMutableArray+ObjectiveSugar.m in Sources */,
+				C0E3515020E113D300CB9B52 /* NSString+ObjectiveSugar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,21 +321,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C8B7D32083663A004BB9FD /* RFYAudioStemsPlayer.m in Sources */,
 				C0C8B7AB20836606004BB9FD /* RFYAppKitTests.m in Sources */,
-				C0C8B8B320837986004BB9FD /* NSNumber+ObjectiveSugar.m in Sources */,
-				C0C8B8AA20837986004BB9FD /* NSSet+ObjectiveSugar.m in Sources */,
-				C0C8B7D02083663A004BB9FD /* RFYAudioQueuePlayer.m in Sources */,
-				C0C8B8A720837986004BB9FD /* NSDictionary+ObjectiveSugar.m in Sources */,
 				C0C8B7EC20836B9E004BB9FD /* RFYUtils.m in Sources */,
-				C0C8B8A220837986004BB9FD /* NSString+ObjectiveSugar.m in Sources */,
-				C0C8B8A420837986004BB9FD /* NSMutableArray+ObjectiveSugar.m in Sources */,
-				C0C8B7F220836C6D004BB9FD /* NSArray+RFYUtilities.m in Sources */,
-				C0C8B8AD20837986004BB9FD /* NSArray+ObjectiveSugar.m in Sources */,
-				C0C8B8082083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c in Sources */,
-				C0C8B80C2083783E004BB9FD /* TPCircularBuffer.c in Sources */,
-				C0C8B7E820836A17004BB9FD /* RFYAudioUtils.m in Sources */,
-				C0C8B7CB2083663A004BB9FD /* RFYAudioFilePlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -556,7 +440,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
