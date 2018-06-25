@@ -22,12 +22,4 @@ FOUNDATION_EXPORT const unsigned char RFYAppKitVersionString[];
 #import <RFYAppKit/RFYErrors.h>
 #import <RFYAppKit/RFYPermissions.h>
 #import <RFYAppKit/NSArray+RFYUtilities.h>
-
-#import <RFYAppKit/RFYAudioUtils.h>
-#import <RFYAppKit/RFYAudioFilePlayer.h>
-#import <RFYAppKit/RFYAudioQueuePlayer.h>
-#import <RFYAppKit/RFYAudioStemsPlayer.h>
-
 #import <RFYAppKit/ObjectiveSugar.h>
-#import <RFYAppKit/TPCircularBuffer+AudioBufferList.h>
-

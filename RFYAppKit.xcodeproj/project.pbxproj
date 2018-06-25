@@ -12,29 +12,9 @@
 		C0C8B7A620836606004BB9FD /* RFYAppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C8B79C20836605004BB9FD /* RFYAppKit.framework */; };
 		C0C8B7AB20836606004BB9FD /* RFYAppKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7AA20836606004BB9FD /* RFYAppKitTests.m */; };
 		C0C8B7AD20836606004BB9FD /* RFYAppKit.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B79F20836605004BB9FD /* RFYAppKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7C92083663A004BB9FD /* RFYAudioFilePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7C120836639004BB9FD /* RFYAudioFilePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7CA2083663A004BB9FD /* RFYAudioFilePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7C220836639004BB9FD /* RFYAudioFilePlayer.m */; };
-		C0C8B7CB2083663A004BB9FD /* RFYAudioFilePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7C220836639004BB9FD /* RFYAudioFilePlayer.m */; };
-		C0C8B7CC2083663A004BB9FD /* RFYAudioPlayable.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7C320836639004BB9FD /* RFYAudioPlayable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7CD2083663A004BB9FD /* RFYAudioProducer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7C420836639004BB9FD /* RFYAudioProducer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7CE2083663A004BB9FD /* RFYAudioQueuePlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7C520836639004BB9FD /* RFYAudioQueuePlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7CF2083663A004BB9FD /* RFYAudioQueuePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7C620836639004BB9FD /* RFYAudioQueuePlayer.m */; };
-		C0C8B7D02083663A004BB9FD /* RFYAudioQueuePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7C620836639004BB9FD /* RFYAudioQueuePlayer.m */; };
-		C0C8B7D12083663A004BB9FD /* RFYAudioStemsPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7C720836639004BB9FD /* RFYAudioStemsPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7D22083663A004BB9FD /* RFYAudioStemsPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7C820836639004BB9FD /* RFYAudioStemsPlayer.m */; };
-		C0C8B7D32083663A004BB9FD /* RFYAudioStemsPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7C820836639004BB9FD /* RFYAudioStemsPlayer.m */; };
 		C0C8B7E320836945004BB9FD /* RFYUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7E220836945004BB9FD /* RFYUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B7E720836A17004BB9FD /* RFYAudioUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7E520836A17004BB9FD /* RFYAudioUtils.m */; };
-		C0C8B7E820836A17004BB9FD /* RFYAudioUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7E520836A17004BB9FD /* RFYAudioUtils.m */; };
-		C0C8B7E920836A17004BB9FD /* RFYAudioUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B7E620836A17004BB9FD /* RFYAudioUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0C8B7EB20836B9E004BB9FD /* RFYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7EA20836B9E004BB9FD /* RFYUtils.m */; };
 		C0C8B7EC20836B9E004BB9FD /* RFYUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B7EA20836B9E004BB9FD /* RFYUtils.m */; };
-		C0C8B8072083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B8032083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c */; };
-		C0C8B8082083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B8032083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c */; };
-		C0C8B8092083783E004BB9FD /* TPCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B8042083783E004BB9FD /* TPCircularBuffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B80A2083783E004BB9FD /* TPCircularBuffer+AudioBufferList.h in Headers */ = {isa = PBXBuildFile; fileRef = C0C8B8052083783E004BB9FD /* TPCircularBuffer+AudioBufferList.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C0C8B80B2083783E004BB9FD /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B8062083783E004BB9FD /* TPCircularBuffer.c */; };
-		C0C8B80C2083783E004BB9FD /* TPCircularBuffer.c in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B8062083783E004BB9FD /* TPCircularBuffer.c */; };
 		C0C8B8A120837986004BB9FD /* NSString+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89420837985004BB9FD /* NSString+ObjectiveSugar.m */; };
 		C0C8B8A220837986004BB9FD /* NSString+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89420837985004BB9FD /* NSString+ObjectiveSugar.m */; };
 		C0C8B8A320837986004BB9FD /* NSMutableArray+ObjectiveSugar.m in Sources */ = {isa = PBXBuildFile; fileRef = C0C8B89520837985004BB9FD /* NSMutableArray+ObjectiveSugar.m */; };
@@ -84,22 +64,8 @@
 		C0C8B7A520836606004BB9FD /* RFYAppKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RFYAppKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C8B7AA20836606004BB9FD /* RFYAppKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFYAppKitTests.m; sourceTree = "<group>"; };
 		C0C8B7AC20836606004BB9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C0C8B7C120836639004BB9FD /* RFYAudioFilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYAudioFilePlayer.h; sourceTree = "<group>"; };
-		C0C8B7C220836639004BB9FD /* RFYAudioFilePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFYAudioFilePlayer.m; sourceTree = "<group>"; };
-		C0C8B7C320836639004BB9FD /* RFYAudioPlayable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYAudioPlayable.h; sourceTree = "<group>"; };
-		C0C8B7C420836639004BB9FD /* RFYAudioProducer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYAudioProducer.h; sourceTree = "<group>"; };
-		C0C8B7C520836639004BB9FD /* RFYAudioQueuePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYAudioQueuePlayer.h; sourceTree = "<group>"; };
-		C0C8B7C620836639004BB9FD /* RFYAudioQueuePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFYAudioQueuePlayer.m; sourceTree = "<group>"; };
-		C0C8B7C720836639004BB9FD /* RFYAudioStemsPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFYAudioStemsPlayer.h; sourceTree = "<group>"; };
-		C0C8B7C820836639004BB9FD /* RFYAudioStemsPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFYAudioStemsPlayer.m; sourceTree = "<group>"; };
 		C0C8B7E220836945004BB9FD /* RFYUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFYUtils.h; sourceTree = "<group>"; };
-		C0C8B7E520836A17004BB9FD /* RFYAudioUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFYAudioUtils.m; sourceTree = "<group>"; };
-		C0C8B7E620836A17004BB9FD /* RFYAudioUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RFYAudioUtils.h; sourceTree = "<group>"; };
 		C0C8B7EA20836B9E004BB9FD /* RFYUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RFYUtils.m; sourceTree = "<group>"; };
-		C0C8B8032083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "TPCircularBuffer+AudioBufferList.c"; path = "TPCircularBuffer/TPCircularBuffer+AudioBufferList.c"; sourceTree = "<group>"; };
-		C0C8B8042083783E004BB9FD /* TPCircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPCircularBuffer.h; path = TPCircularBuffer/TPCircularBuffer.h; sourceTree = "<group>"; };
-		C0C8B8052083783E004BB9FD /* TPCircularBuffer+AudioBufferList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TPCircularBuffer+AudioBufferList.h"; path = "TPCircularBuffer/TPCircularBuffer+AudioBufferList.h"; sourceTree = "<group>"; };
-		C0C8B8062083783E004BB9FD /* TPCircularBuffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = TPCircularBuffer.c; path = TPCircularBuffer/TPCircularBuffer.c; sourceTree = "<group>"; };
 		C0C8B89420837985004BB9FD /* NSString+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ObjectiveSugar.m"; path = "Classes/NSString+ObjectiveSugar.m"; sourceTree = "<group>"; };
 		C0C8B89520837985004BB9FD /* NSMutableArray+ObjectiveSugar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+ObjectiveSugar.m"; path = "Classes/NSMutableArray+ObjectiveSugar.m"; sourceTree = "<group>"; };
 		C0C8B89620837985004BB9FD /* NSMutableArray+ObjectiveSugar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+ObjectiveSugar.h"; path = "Classes/NSMutableArray+ObjectiveSugar.h"; sourceTree = "<group>"; };
@@ -183,7 +149,6 @@
 		C0C8B7BF20836639004BB9FD /* src */ = {
 			isa = PBXGroup;
 			children = (
-				C0C8B7C020836639004BB9FD /* audio */,
 				C0C8B7E220836945004BB9FD /* RFYUtils.h */,
 				C0C8B7EA20836B9E004BB9FD /* RFYUtils.m */,
 				C016A0B2209726D700C898C4 /* RFYCache.h */,
@@ -201,41 +166,12 @@
 			path = src;
 			sourceTree = "<group>";
 		};
-		C0C8B7C020836639004BB9FD /* audio */ = {
-			isa = PBXGroup;
-			children = (
-				C0C8B80220836E2C004BB9FD /* libs */,
-				C0C8B7C120836639004BB9FD /* RFYAudioFilePlayer.h */,
-				C0C8B7C220836639004BB9FD /* RFYAudioFilePlayer.m */,
-				C0C8B7C320836639004BB9FD /* RFYAudioPlayable.h */,
-				C0C8B7C420836639004BB9FD /* RFYAudioProducer.h */,
-				C0C8B7C520836639004BB9FD /* RFYAudioQueuePlayer.h */,
-				C0C8B7C620836639004BB9FD /* RFYAudioQueuePlayer.m */,
-				C0C8B7C720836639004BB9FD /* RFYAudioStemsPlayer.h */,
-				C0C8B7C820836639004BB9FD /* RFYAudioStemsPlayer.m */,
-				C0C8B7E620836A17004BB9FD /* RFYAudioUtils.h */,
-				C0C8B7E520836A17004BB9FD /* RFYAudioUtils.m */,
-			);
-			path = audio;
-			sourceTree = "<group>";
-		};
 		C0C8B7ED20836C54004BB9FD /* utilities */ = {
 			isa = PBXGroup;
 			children = (
 				C0C8B80D208378D9004BB9FD /* libs */,
 			);
 			path = utilities;
-			sourceTree = "<group>";
-		};
-		C0C8B80220836E2C004BB9FD /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				C0C8B8062083783E004BB9FD /* TPCircularBuffer.c */,
-				C0C8B8042083783E004BB9FD /* TPCircularBuffer.h */,
-				C0C8B8032083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c */,
-				C0C8B8052083783E004BB9FD /* TPCircularBuffer+AudioBufferList.h */,
-			);
-			path = libs;
 			sourceTree = "<group>";
 		};
 		C0C8B80D208378D9004BB9FD /* libs */ = {
@@ -273,24 +209,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C8B7CE2083663A004BB9FD /* RFYAudioQueuePlayer.h in Headers */,
-				C0C8B7D12083663A004BB9FD /* RFYAudioStemsPlayer.h in Headers */,
-				C0C8B7C92083663A004BB9FD /* RFYAudioFilePlayer.h in Headers */,
 				C0C8B7E320836945004BB9FD /* RFYUtils.h in Headers */,
-				C0C8B7E920836A17004BB9FD /* RFYAudioUtils.h in Headers */,
-				C0C8B7CC2083663A004BB9FD /* RFYAudioPlayable.h in Headers */,
 				C0C8B8AF20837986004BB9FD /* NSDictionary+ObjectiveSugar.h in Headers */,
 				C0C8B8AB20837986004BB9FD /* NSString+ObjectiveSugar.h in Headers */,
 				C0C8B8B020837986004BB9FD /* ObjectiveSugar.h in Headers */,
 				C0C8B8A820837986004BB9FD /* NSNumber+ObjectiveSugar.h in Headers */,
-				C0C8B8092083783E004BB9FD /* TPCircularBuffer.h in Headers */,
 				C0E34FE920E10DC100CB9B52 /* RFYPermissions.h in Headers */,
 				C0E34FEA20E10DC100CB9B52 /* RFYErrors.h in Headers */,
 				C0C8B8A520837986004BB9FD /* NSMutableArray+ObjectiveSugar.h in Headers */,
 				C0C8B8AE20837986004BB9FD /* NSSet+ObjectiveSugar.h in Headers */,
 				C0C8B8B120837986004BB9FD /* NSArray+ObjectiveSugar.h in Headers */,
-				C0C8B80A2083783E004BB9FD /* TPCircularBuffer+AudioBufferList.h in Headers */,
-				C0C8B7CD2083663A004BB9FD /* RFYAudioProducer.h in Headers */,
 				C016A0B4209726D800C898C4 /* RFYCache.h in Headers */,
 				C0C8B7AD20836606004BB9FD /* RFYAppKit.h in Headers */,
 				C0E34FE420E10DC100CB9B52 /* NSArray+RFYUtilities.h in Headers */,
@@ -396,24 +324,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C8B8072083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c in Sources */,
-				C0C8B7E720836A17004BB9FD /* RFYAudioUtils.m in Sources */,
 				C0C8B8A920837986004BB9FD /* NSSet+ObjectiveSugar.m in Sources */,
 				C0C8B7EB20836B9E004BB9FD /* RFYUtils.m in Sources */,
-				C0C8B7CA2083663A004BB9FD /* RFYAudioFilePlayer.m in Sources */,
 				C0C8B8A320837986004BB9FD /* NSMutableArray+ObjectiveSugar.m in Sources */,
 				C0E34FE820E10DC100CB9B52 /* RFYErrors.m in Sources */,
 				C0E34FE520E10DC100CB9B52 /* RFYPermissions.m in Sources */,
 				C016A0B5209726D800C898C4 /* RFYCache.m in Sources */,
 				C0E34FE720E10DC100CB9B52 /* NSArray+RFYUtilities.m in Sources */,
 				C0E34FE620E10DC100CB9B52 /* RFYTask.m in Sources */,
-				C0C8B7D22083663A004BB9FD /* RFYAudioStemsPlayer.m in Sources */,
 				C0C8B8A120837986004BB9FD /* NSString+ObjectiveSugar.m in Sources */,
 				C0C8B8B220837986004BB9FD /* NSNumber+ObjectiveSugar.m in Sources */,
 				C0C8B8A620837986004BB9FD /* NSDictionary+ObjectiveSugar.m in Sources */,
 				C0C8B8AC20837986004BB9FD /* NSArray+ObjectiveSugar.m in Sources */,
-				C0C8B7CF2083663A004BB9FD /* RFYAudioQueuePlayer.m in Sources */,
-				C0C8B80B2083783E004BB9FD /* TPCircularBuffer.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,20 +343,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0C8B7D32083663A004BB9FD /* RFYAudioStemsPlayer.m in Sources */,
 				C0C8B7AB20836606004BB9FD /* RFYAppKitTests.m in Sources */,
 				C0C8B8B320837986004BB9FD /* NSNumber+ObjectiveSugar.m in Sources */,
 				C0C8B8AA20837986004BB9FD /* NSSet+ObjectiveSugar.m in Sources */,
-				C0C8B7D02083663A004BB9FD /* RFYAudioQueuePlayer.m in Sources */,
 				C0C8B8A720837986004BB9FD /* NSDictionary+ObjectiveSugar.m in Sources */,
 				C0C8B7EC20836B9E004BB9FD /* RFYUtils.m in Sources */,
 				C0C8B8A220837986004BB9FD /* NSString+ObjectiveSugar.m in Sources */,
 				C0C8B8A420837986004BB9FD /* NSMutableArray+ObjectiveSugar.m in Sources */,
 				C0C8B8AD20837986004BB9FD /* NSArray+ObjectiveSugar.m in Sources */,
-				C0C8B8082083783E004BB9FD /* TPCircularBuffer+AudioBufferList.c in Sources */,
-				C0C8B80C2083783E004BB9FD /* TPCircularBuffer.c in Sources */,
-				C0C8B7E820836A17004BB9FD /* RFYAudioUtils.m in Sources */,
-				C0C8B7CB2083663A004BB9FD /* RFYAudioFilePlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
